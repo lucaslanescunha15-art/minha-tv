@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1366, height=768, initial-scale=1">
+<title>Home TV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage" id="stage">
+  <section class="clock">
+    <p class="greeting" id="greeting"></p>
+    <div class="time" aria-label="Hora atual">
+      <span id="hh">00</span><span class="sep">:</span><span id="mm">00</span>
+    </div>
+    <p class="date" id="date"></p>
+  </section>
+
+  <nav class="apps" id="apps" aria-label="Aplicativos"></nav>
+
+  <p class="hint">Setas para navegar, OK para abrir</p>
+  <div class="toast" id="toast" role="status"></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
